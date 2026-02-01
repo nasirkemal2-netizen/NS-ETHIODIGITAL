@@ -1,0 +1,16 @@
+# SCREEN_FLOW.png
+Web + App screens flow diagram
+This diagram illustrates the flow of the system for both web portal (Admin/Teacher) and mobile app (Student/Teacher):
+
+Web Portal:
+- Login / Authentication
+- Dashboard (Admin: manage schools/users/exams; Teacher: create exams, select items, view results)
+- Exam Management (Create/Edit/Delete, assign items)
+- Results & Reports
+- Settings
+
+Mobile App:
+- Login / Authentication
+- Dashboard (Available exams, countdown timers)
+- Exam Taking (MCQ/TF/Matching)
+- Results Viewing (Auto-graded)
