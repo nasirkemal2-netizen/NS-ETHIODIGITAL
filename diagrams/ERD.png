@@ -1,1 +1,20 @@
 
+# ERD.png
+Database schema diagram (Entity-Relationship)
+This diagram illustrates all core entities and their relationships as designed in PHASE1_SYSTEM_DESIGN:
+
+Entities:
+- Schools
+- Users (Teacher / Student)
+- Exams
+- Item Bank
+- Exam Items
+- Responses
+- Results
+
+Relationships:
+- One School has many Users
+- Teachers create Exams
+- Exams contain multiple Exam Items from the Item Bank
+- Students submit Responses per Exam Item
+- Responses generate Results (auto-graded for MCQ / TF)
